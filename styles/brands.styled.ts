@@ -13,6 +13,5 @@ export const ProductCounter = styled.div`
 export const ProductCount = styled.p``;
 export const ProductList = styled.ul`
   margin-top: ${contactsStyle.margin.S};
-  padding: ${contactsStyle.margin.M};
   background-color: ${({ theme }) => theme.color.white};
 `;

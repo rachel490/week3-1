@@ -2,8 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.li<{ isList?: boolean }>`
   list-style: none;
-  width: 330px;
-  padding: 13px 0 13px 0;
+  width: 100%;
   border-bottom: 1px solid #e5e5e5;
   background-color: white;
 
@@ -11,7 +10,7 @@ export const Container = styled.li<{ isList?: boolean }>`
     isList &&
     css`
       height: 124px;
-      /* padding: 17px 0 17px 17px; */
+      padding: 17px 0 17px 17px;
     `}
 `;
 
