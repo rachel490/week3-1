@@ -27,7 +27,7 @@ export const ItemImage = styled.img<{ isList?: boolean }>`
 `;
 
 export const TextContainer = styled.div`
-  margin-left: 14px;
+  margin: 0 14px;
 `;
 
 export const ItemNameText = styled.span<{ isList?: boolean }>`

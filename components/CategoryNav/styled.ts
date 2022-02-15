@@ -23,6 +23,7 @@ export const NavList = styled.div`
   height: 40px;
   padding: 0 10px;
   width: 1000px;
+  z-index: 10;
   border-bottom: 1px solid #ccc;
 
   button {
